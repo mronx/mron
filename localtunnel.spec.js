@@ -6,7 +6,7 @@ const https = require('https');
 const url = require('url');
 const assert = require('assert');
 
-const localtunnel = require('./localtunnel');
+const localtunnel = require('./mron');
 
 let fakePort;
 
