@@ -7,7 +7,7 @@ Great for working with browser testing tools like browserling or external api ca
 ## Quickstart
 
 ```
-npx localtunnel --port 8000
+npx mron --port 8000
 ```
 
 ## Installation
@@ -15,13 +15,13 @@ npx localtunnel --port 8000
 ### Globally
 
 ```
-npm install -g localtunnel
+npm install -g mron
 ```
 
 ### As a dependency in your project
 
 ```
-yarn add localtunnel
+yarn add mron
 ```
 
 ## CLI usage
@@ -29,7 +29,7 @@ yarn add localtunnel
 When localtunnel is installed globally, just use the `lt` command to start the tunnel.
 
 ```
-lt --port 8000
+mron --port 8000
 ```
 
 Thats it! It will connect to the tunnel server, setup the tunnel, and tell you what url to use for your testing. This url will remain active for the duration of your session; so feel free to share it with others for happy fun time!
